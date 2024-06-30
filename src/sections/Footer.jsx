@@ -27,7 +27,7 @@ const Footer = () => {
     //     {
     //         title: "Get in touch",
     //         links: [
-    //             { name: "contact@wcit.org.uk", link: "mailto:contact@wcit.org.uk" },
+    //             { name: "contact@ypwcti.com", link: "mailto:contact@ypwcti.com" },
     //             { name: "+4407123456789", link: "tel:+4407123456789" },
     //         ],
     //     },
@@ -49,7 +49,10 @@ const Footer = () => {
                             <ul className="list-none">
                                 {link.links.map((item, index) => (
                                     <li key={index} className="mt-2">
-                                        <a href={item.link} className="text-gray-400 hover:text-white">
+                                        <a
+                                            href={item.link}
+                                            className="text-gray-400 hover:text-white"
+                                        >
                                             {item.name}
                                         </a>
                                     </li>
@@ -59,17 +62,29 @@ const Footer = () => {
                     ))}
                 </div>
                 <div className="flex items-center mt-4 md:mt-0">
-            {socialMedia.map((item, index) => (
-                        <a key={index} href="#" className="mx-4 text-gray-400 hover:text-white">
-                            <img src={item.src} alt={item.alt} className="w-6 h-6" />
+                    {socialMedia.map((item, index) => (
+                        <a
+                            key={index}
+                            href="#"
+                            className="mx-4 text-gray-400 hover:text-white"
+                        >
+                            <img
+                                src={item.src}
+                                alt={item.alt}
+                                className="w-6 h-6"
+                            />
                         </a>
-            ))}
-            <p className="text-gray-400">&copy;
-              <script>document.write(new Date().getFullYear());
-                  </script> WCIT. All rights reserved.</p>
+                    ))}
+                    <p className="text-gray-400">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>{" "}
+                        YPWCTI. All rights reserved.
+                    </p>
                 </div>
             </div>
-      </section>
+        </section>
 
         // using tailwind to design
     );

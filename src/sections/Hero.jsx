@@ -3,7 +3,6 @@ import React from "react";
 import { hero } from "../assets/images";
 import Button from "../components/Button";
 
-
 const Hero = () => {
     return (
         <section
@@ -16,19 +15,25 @@ const Hero = () => {
                         Combining tradition with modern energy and innovation
                     </h1>
                     <div className="mt-12">
-                    <Button  label="Explore roles" />
-
+                        <Button label="Explore roles" />
                     </div>
                 </div>
                 <div className="mt-20 mr-5 w-full max-w-xl">
-                    <img className="object-cover" src={hero} alt="Hero" width={700} height={1000} />
+                    <img
+                        className="object-cover"
+                        src={hero}
+                        alt="Hero"
+                        width={700}
+                        height={1000}
+                    />
                 </div>
             </div>
             <div className="bg-primary font-roboto text-white p-8 text-xl  leading-normal">
-                The Worshipful Company of Information Technologists is the 100th
-                livery company of the City of London. For over 30 years we have
-                raised money for charity and provided IT skills and training to
-                improve lives across the UK and beyond.
+                The Company of Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Vitae laborum laudantium alias doloremque quos
+                animi eligendi voluptate, consequuntur, cupiditate repudiandae
+                corporis nihil praesentium, iusto est quia a nemo mollitia
+                reiciendis?
             </div>
         </section>
     );

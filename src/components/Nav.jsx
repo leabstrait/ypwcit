@@ -17,7 +17,7 @@ const Nav = () => {
                             width={38}
                             height={38}
                         />
-                        <span className="ml-1 font-lato font-bold">WCIT</span>
+                        <span className="ml-1 font-lato font-bold">YPWCTI</span>
                     </div>
                 </a>
                 <ul className="flex flex-1 justify-end items-center gap-16 max-lg:hidden">

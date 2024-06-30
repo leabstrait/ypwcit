@@ -97,7 +97,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "contact@wcit.org.uk", link: "mailto:contact@wcit.org.uk" },
+            { name: "contact@ypwcti.com", link: "mailto:contact@ypwcti.com" },
             { name: "+4407123456789", link: "tel:+4407123456789" },
         ],
     },
